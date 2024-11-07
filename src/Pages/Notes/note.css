@@ -1,0 +1,45 @@
+.notesobj {
+  width: calc(95.7%/3);
+  height: fit-content;
+  background-color: rgb(246, 219, 185);
+  padding: 24px 36px;
+  font-family: 'Poppins', 'sans-serif';
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.notesobj h3 {
+  color: #333;
+  margin: 0px;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.notesobj p {
+  color: #666;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.notesobj a {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: green;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.notesobj a:hover {
+  background-color: darkgreen;
+}

@@ -1,0 +1,18 @@
+.pqpage{
+    background-color: #f4f4f4;
+    height: fit-content;
+    padding: 50px 75px;
+}
+
+.pageres{
+    margin: 20px;
+    width: max-width;
+    height: 96vh;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    @media screen and (max-width: 1110px) {
+        margin: 10px;
+        
+    }
+}

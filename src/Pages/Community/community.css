@@ -1,0 +1,126 @@
+.community{
+    height: fit-content;
+    background-color: #f4f4f4;
+    padding: 50px 75px;
+    font-family: 'poppins', sans-serif;
+    @media screen and (max-width: 768px) {
+      padding: 10px;
+    }
+}
+
+.communitycont{
+    margin: 20px;
+    width:max-width;
+    background-color: rgb(255, 246, 234);
+    border-radius: 10px;
+    padding-top: 0;
+    /*height: 95%;*/
+    @media screen and (max-width: 768px) {
+        margin: 10px;
+        margin-top: 20px;
+      
+    }
+}
+
+.namebar{
+    height: 10%;
+    width: auto;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 218, 178);
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 15px 10px -15px #111;
+    @media screen and (max-width: 768px) {
+        padding-left: 15px;
+        padding-right: 10px;
+      
+    }
+}
+
+
+
+.fabut{
+    padding: 4px;
+}
+
+.content{
+    max-height: 85%;
+    /*overflow-y: auto;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.popupcontent {
+    background: antiquewhite;
+    padding: 24px 36px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    width: auto;
+    padding-right: 25px;
+  }
+  
+  .popupcontent h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  
+  .popupcontent h3 {
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .popupcontent form {
+    margin-top: 15px;
+  }
+  
+  .popupcontent textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 10px;
+    resize: vertical;
+    font-size: 20px;  
+    font-family: "poppins", sans-serif;
+  }
+  
+  .popupcontent button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: -20px;
+    margin-bottom: 20px;
+    float: right;
+  }
+  
+  .popupcontent button:hover {
+    background-color: #0056b3;
+  }
+
+  .postbuton{
+    background-color: seagreen;
+    position: fixed;
+    color: #fff;
+    padding: 24px 36px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    bottom: 20px;
+    right: 20px;
+    @media screen and (max-width: 768px) {
+      width: 70px;
+      height: 70px;
+        margin-right: 5px;
+        border-radius: 50%;
+    }
+  }
+  

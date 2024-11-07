@@ -1,0 +1,30 @@
+.subjectobj {
+    width: calc(25% - 10px);
+    height: 200px;
+    background-color: rgb(246, 219, 185);
+    padding: 24px 36px;
+    font-family: 'Poppins', 'sans-serif';
+    margin: 5px; 
+    box-sizing: border-box;  
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.subjectobj h2{
+    margin-top: 10px;
+    color: #232023;
+}
+
+.subjectobj h3{
+    color: #646379;
+}
+
+.subjectobj:hover {
+    cursor: pointer;
+    background-color: rgb(255, 201, 134);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+

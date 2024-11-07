@@ -1,0 +1,38 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup {
+    background: antiquewhite;
+    padding-right: 20px;
+    border-radius: 8px;
+    width: 50%;
+    @media screen and (max-width: 768px) {
+      width: 80%;
+      
+    }
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    cursor: pointer;
+    background-color: antiquewhite;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-size: 1rem;
+    @media screen and (max-width: 768px) {
+      top: 80px;
+    }
+  }
+  

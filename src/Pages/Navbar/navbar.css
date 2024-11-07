@@ -1,0 +1,271 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 1px 10px #999;
+    z-index: 1;
+    transition: background-color 125ms linear;
+
+    @media screen and (max-width: 768px) {
+        height: 50px;
+        
+    }
+}
+
+.leftnav{
+    display: flex;
+    width: max-content;
+    align-items: baseline;
+    margin-left: 20px;
+    padding-bottom: 2px;
+    color: black;
+    transition: color 125ms linear;
+}
+
+.leftnav h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 500;   
+    @media screen and (max-width: 768px) {
+        font-size: 2rem;
+        padding: auto;
+        margin: auto;
+    }
+}
+
+.leftnav span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    @media screen and (max-width: 768px) {
+        font-size: 1.5rem;
+        margin-top: auto;
+        margin-bottom: 0;
+        padding-bottom: 4px;
+    }
+}
+
+.rightnav{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    @media screen and (max-width: 768px) {
+        background-color: black;
+        
+    }
+}
+
+.logoutbut{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+    @media screen and (max-width: 1278px) {
+        padding: 8px;
+        font-size: 1rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 0.8rem;
+        
+    }
+}
+
+.logoutbut:hover{
+    transform: scale(1.1);
+}
+
+.backbut{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    padding: 10px;
+    @media screen and (max-width: 1278px) {
+        padding: 8px;
+        font-size: 1rem;
+        margin-right:12px;
+        background-color: black;
+    }
+    background-color:#282b2e;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-right: 15px;
+}
+
+.backbut:hover{
+    transform: scale(1.1);
+    background-color: black;
+}
+
+.paperbut{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    padding: 10px;
+    @media screen and (max-width: 1278px) {
+        padding: 8px;
+        font-size: 1rem;
+        margin-right:12px;
+        background-color: black;
+    }
+    background-color: #282b2e;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-right: 15px;
+}
+
+.paperbut:hover{
+    transform: scale(1.1);
+    background-color: black;
+}
+
+.notesbut{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    padding: 10px;
+    @media screen and (max-width: 1278px) {
+        padding: 8px;
+        font-size: 1rem;
+        margin-right:12px;
+        background-color: black;
+    }
+    background-color:#282b2e;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-right: 15px;
+}
+
+.notesbut:hover{
+    transform: scale(1.1);
+    background-color: black;
+}
+
+.homeNav {
+    display: none;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.homeNav .logoutbut {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    padding: 7px 24px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;   
+}
+
+.rightnav .iconbut {
+    height: 100%;
+    padding: 0 20px;
+    border: none;
+    border-radius: none;
+    display: none;
+}
+
+.navIcon {
+    display: none;
+}
+
+@media screen and (max-width: 1210px) {
+    .rightnav {
+        margin-right: 0;
+    }
+    .homeNav {
+        display: flex;
+    }
+    .rightnav button {
+        display: none;
+    }
+    .rightnav .iconbut {
+        float: right;
+        display: block;
+        transition: color 125ms linear;
+        transition: background-color 125ms linear;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .Navbar.responsive {
+        position: relative;
+        display: block;
+        background-color: black;
+        color: #e2e2e2;
+        transition: background-color 125ms linear;
+        transition: color 125ms linear;
+    }
+    .Navbar.responsive .momi .leftnav {
+        color: #e2e2e2;
+        transition: color 125ms linear;
+    }
+    .Navbar.responsive .rightnav {
+        display: block;
+    }
+    .Navbar.responsive .rightnav .iconbut {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: none;
+        color: #e2e2e2;
+        transition: color 125ms linear;
+    }
+    .Navbar.responsive button {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .Navbar.responsive {
+        width: 100%;
+    }
+    .Navbar.responsive .backbut,
+    .paperbut,
+    .notesbut,
+    .logoutbut {
+        width: 100%;
+        border-radius: 0;
+    }
+    .Navbar.responsive .backbut:hover,
+    .logoutbut:hover,
+    .notesbut:hover,
+    .paperbut:hover {
+        transform: none;
+    }
+    .homeNav .paperbut {
+        background: none;
+        color: #333;
+        margin: 10px;
+    }
+    .Navbar.responsive .navIcon {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+.iconbut{
+    background-color: antiquewhite;
+}
+
+.momi{
+    text-decoration: none;
+    color: none;
+    width: auto;
+  }
+
+  

@@ -1,0 +1,73 @@
+.login {
+    background-image: url("./loginbackground.jpg");
+    background-size: cover;
+    z-index: -1;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+.leftlog h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    background-color: antiquewhite;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 24px 36px;
+    margin-left: 20px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.4rem;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+
+.leftlog {
+    width: 100%;
+
+    @media screen and (max-width: 768px) {
+        width: 90%;
+    }
+
+}
+
+.rightlog {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+}
+
+.logincontainer {
+    padding: 60px;
+    background-color: antiquewhite;
+    margin-right: 10%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        padding: 0;
+        margin-right: 0;
+    }
+}
+
